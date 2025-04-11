@@ -1,7 +1,3 @@
-
-
-
-
 vim.cmd("let g:netrw_liststyle = 3")
 
 local opt = vim.opt
@@ -23,7 +19,6 @@ opt.smartcase = true -- if you include mixed case in your search, assumes you wa
 
 opt.cursorline = true
 opt.termguicolors = true
-
 
 -- backspace
 opt.backspace = "indent,eol,start" -- allow backspace on indent, end of line or insert mode start position
